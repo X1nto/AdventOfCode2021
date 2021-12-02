@@ -3,8 +3,8 @@ import java.io.File
 private val input = File("./input.txt")
     .readLines()
 
-var horizontalPosition = 0
-var depth = 0
+private var horizontalPosition = 0
+private var depth = 0
 
 input.forEach {
     val command = it.substringBefore(' ')
